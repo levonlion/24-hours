@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public abstract class NodeControllerBase : MonoBehaviour
+{
+    public Node Model { get; protected set; }
+    
+    [SerializeField] protected NodeView View;
+
+    public virtual void Initialize(Node model)
+    {
+        Model = model;
+        View.Initialize(Model);
+    }
+
+    public void SwipeLeft()
+    {
+        GameManager.Instance.SwipeLeft();
+    }
+    
+    public void SwipeRight()
+    {
+        GameManager.Instance.SwipeRight();
+    }
+    
+    public void SwipeDown()
+    {
+        GameManager.Instance.SwipeDown();
+    }
+}
