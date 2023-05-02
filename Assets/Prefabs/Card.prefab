@@ -220,8 +220,8 @@ GameObject:
   - component: {fileID: 790510129361997665}
   - component: {fileID: 790510129361997667}
   - component: {fileID: 790510129361997664}
-  - component: {fileID: 790510129361997597}
   - component: {fileID: 790510129361997666}
+  - component: {fileID: 5669810847906710205}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -290,19 +290,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &790510129361997597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790510129361997670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a76a0f419d28e1419b181110d4f785e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  View: {fileID: 790510129361997666}
 --- !u!114 &790510129361997666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,6 +309,19 @@ MonoBehaviour:
   _rightText: {fileID: 790510129164822058}
   _leftButton: {fileID: 790510130370570803}
   _rightButton: {fileID: 790510130477390875}
+--- !u!114 &5669810847906710205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790510129361997670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 220791998f1eb514b837d61fb03b119f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  View: {fileID: 790510129361997666}
 --- !u!1 &790510129497664748
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,8 +711,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 790510129361997597}
-        m_TargetAssemblyTypeName: NodeControllerBase, Assembly-CSharp
+      - m_Target: {fileID: 5669810847906710205}
+        m_TargetAssemblyTypeName: NodeController, Assembly-CSharp
         m_MethodName: SwipeLeft
         m_Mode: 1
         m_Arguments:
@@ -844,8 +844,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 790510129361997597}
-        m_TargetAssemblyTypeName: NodeControllerBase, Assembly-CSharp
+      - m_Target: {fileID: 5669810847906710205}
+        m_TargetAssemblyTypeName: NodeController, Assembly-CSharp
         m_MethodName: SwipeRight
         m_Mode: 1
         m_Arguments:

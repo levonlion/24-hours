@@ -10,13 +10,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Stats _startingStats;
     [SerializeField] private Stats _maxStats;
     [SerializeField] private Transform _spawnPos;
-    [SerializeField] private NodeControllerBase _prefab;
+    [SerializeField] private NodeController _prefab;
 
     [SerializeField] private StatController _karmaController;
     [SerializeField] private StatController _healthController;
     [SerializeField] private StatController _timeController;
     
-    private NodeControllerBase _currentNodeController;
+    private NodeController _currentNodeController;
     private List<string> _conditions = new List<string>();
 
     private void Awake()
@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
         _currentNodeController = Instantiate(model);
     }
 
-    private NodeControllerBase Instantiate(Node node)
+    private NodeController Instantiate(Node node)
     {
         var controller = Instantiate(_prefab, _spawnPos);
         controller.Initialize(node);

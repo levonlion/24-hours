@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class NodeControllerBase : MonoBehaviour
+public class NodeController : MonoBehaviour
 {
     public Node Model { get; protected set; }
     
