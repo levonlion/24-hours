@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9715e969b3d02e946abfd1f369db21a9, type: 3}
+  m_Name: "4.1 \u041F\u0440\u0438\u0445\u0432\u0430\u0442\u0438\u0442\u044C \u043F\u0438\u0446\u0446\u0443
+    \u0441 \u0441\u043E\u0431\u043E\u0439"
+  m_EditorClassIdentifier: 
+  NegativeStats:
+    Health: 0
+    Karma: -10
+    Time: 10
+  PositiveStats:
+    Health: 0
+    Karma: 5
+    Time: 40
+  RandomEvents: []
+  Background: {fileID: 21300000, guid: aac4ca88abfec5c4e9fe903e5b83ba21, type: 3}
+  BackgroundColor: {r: 0.07450981, g: 0.0627451, b: 0.06666667, a: 1}
+  TextColor: {r: 0.7176471, g: 0.5647059, b: 0.35686275, a: 1}
+  Text: "\u041F\u0440\u0438\u0445\u0432\u0430\u0442\u0438\u0442\u044C \u0441 \u0441\u043E\u0431\u043E\u0439
+    \u043F\u0438\u0446\u0446\u0443 \u0434\u043B\u044F \u0434\u0440\u0443\u0437\u0435\u0439?"
+  LeftText: "\u041D\u0435\u0442"
+  RightText: "\u0414\u0430"
+  WriteCondition: 
+  ReadCondition: 
+  LeftNode: {fileID: 11400000, guid: a366ae04b54a3cb499e9fae0722e35d2, type: 2}
+  RightNode: {fileID: 11400000, guid: a366ae04b54a3cb499e9fae0722e35d2, type: 2}
