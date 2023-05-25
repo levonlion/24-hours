@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9715e969b3d02e946abfd1f369db21a9, type: 3}
-  m_Name: 4
+  m_Name: "4.0_\u0414\u043E\u043C \u0414\u0435\u0440\u0438\u043B\u043B\u0430"
   m_EditorClassIdentifier: 
   NegativeStats:
     Health: 0
@@ -29,5 +29,5 @@ MonoBehaviour:
   RightText: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
   WriteCondition: 
   ReadCondition: 
-  LeftNode: {fileID: 0}
+  LeftNode: {fileID: 11400000, guid: d5b67098d5fd3ed4299832177976d190, type: 2}
   RightNode: {fileID: 11400000, guid: d5b67098d5fd3ed4299832177976d190, type: 2}

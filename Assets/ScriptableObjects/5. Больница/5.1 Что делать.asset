@@ -30,5 +30,5 @@ MonoBehaviour:
   RightText: "\u041F\u043E\u043B\u0435\u0436\u0430\u0442\u044C \u0438 \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C"
   WriteCondition: 
   ReadCondition: 
-  LeftNode: {fileID: 11400000, guid: 67a8756bfbed63749b39015cc6cfd61f, type: 2}
-  RightNode: {fileID: 11400000, guid: eb217dac36a496e4f9ebcd6d5d571a2b, type: 2}
+  LeftNode: {fileID: 11400000, guid: 0a07c22ac9c24194990c73a4678d7e6f, type: 2}
+  RightNode: {fileID: 11400000, guid: 41aab2ee93a481941911ce341b12c141, type: 2}

@@ -10,24 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9715e969b3d02e946abfd1f369db21a9, type: 3}
-  m_Name: 4
+  m_Name: "4.2 \u0427\u0442\u043E \u0434\u0435\u043B\u0430\u0442\u044C"
   m_EditorClassIdentifier: 
   NegativeStats:
     Health: 0
-    Karma: 0
-    Time: 0
+    Karma: 5
+    Time: 5
   PositiveStats:
     Health: 0
-    Karma: 0
-    Time: 0
+    Karma: 10
+    Time: 5
   RandomEvents: []
-  Background: {fileID: 0}
-  BackgroundColor: {r: 0, g: 0, b: 0, a: 0}
-  TextColor: {r: 0, g: 0, b: 0, a: 1}
-  Text: 
-  LeftText: 
-  RightText: 
+  Background: {fileID: 21300000, guid: 8505b0c0224075243af05d202acd11a1, type: 3}
+  BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  TextColor: {r: 0.94509804, g: 0.8509804, b: 0.52156866, a: 1}
+  Text: "\u0412\u0430\u043C \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u044E\u0442
+    \u0432\u044B\u043F\u0438\u0442\u044C"
+  LeftText: "\u041E\u0441\u0442\u0430\u0442\u044C\u0441\u044F \u0442\u0440\u0435\u0437\u0432\u044B\u043C"
+  RightText: "\u0421\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F
+    \u0438 \u043D\u0430\u043F\u0438\u0442\u044C\u0441\u044F "
   WriteCondition: 
   ReadCondition: 
-  LeftNode: {fileID: 0}
-  RightNode: {fileID: 0}
+  LeftNode: {fileID: 11400000, guid: 51bd9fb109c2a9c4c9ad5395e850853a, type: 2}
+  RightNode: {fileID: 11400000, guid: cba3b1c1f75fad94cb4ae809b6cde434, type: 2}

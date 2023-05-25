@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NegativeStats:
     Health: 0
-    Karma: 0
-    Time: 0
+    Karma: 10
+    Time: 30
   PositiveStats:
     Health: 0
     Karma: 0

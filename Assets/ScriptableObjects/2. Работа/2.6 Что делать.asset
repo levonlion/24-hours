@@ -13,21 +13,24 @@ MonoBehaviour:
   m_Name: "2.6 \u0427\u0442\u043E \u0434\u0435\u043B\u0430\u0442\u044C"
   m_EditorClassIdentifier: 
   NegativeStats:
-    Health: 0
-    Karma: 0
-    Time: 0
+    Health: 10
+    Karma: -5
+    Time: 45
   PositiveStats:
     Health: 0
-    Karma: 0
-    Time: 0
+    Karma: 5
+    Time: 25
   RandomEvents: []
-  Background: {fileID: 0}
-  BackgroundColor: {r: 0, g: 0, b: 0, a: 0}
-  TextColor: {r: 0, g: 0, b: 0, a: 1}
-  Text: 
-  LeftText: 
-  RightText: 
+  Background: {fileID: 21300000, guid: e8a6139a166c5e74f9b46fc6a8791b0b, type: 3}
+  BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  TextColor: {r: 0.99607843, g: 0.87058824, b: 0.7058824, a: 1}
+  Text: "\u0427\u0435\u043C \u0437\u0430\u043D\u044F\u0442\u0441\u044F \u043F\u043E\u0441\u043B\u0435
+    \u0443\u0442\u043E\u043C\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0439 \u0440\u0430\u0431\u043E\u0442\u044B?"
+  LeftText: "\u041F\u043E\u0439\u0442\u0438 \u0434\u043E\u043C\u043E\u0439 \u0438
+    \u043E\u0442\u0434\u0445\u043D\u0443\u0442\u044C"
+  RightText: "\u041F\u043E\u0439\u0442\u0438 \u043F\u043E\u0433\u0443\u043B\u044F\u0442\u044C
+    \u0432 \u043F\u0430\u0440\u043A"
   WriteCondition: 
   ReadCondition: 
-  LeftNode: {fileID: 0}
-  RightNode: {fileID: 0}
+  LeftNode: {fileID: 11400000, guid: 39f5ced06e33132429b5cae00070a03a, type: 2}
+  RightNode: {fileID: 11400000, guid: 8b91c1fc8ae3c8c49b23f43ee30be9e5, type: 2}

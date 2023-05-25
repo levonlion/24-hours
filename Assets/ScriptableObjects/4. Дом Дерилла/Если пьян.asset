@@ -17,17 +17,17 @@ MonoBehaviour:
     Karma: 0
     Time: 0
   PositiveStats:
-    Health: 0
-    Karma: 0
-    Time: 0
+    Health: -35
+    Karma: 10
+    Time: 45
   RandomEvents: []
   Background: {fileID: 0}
   BackgroundColor: {r: 0, g: 0, b: 0, a: 0}
-  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  TextColor: {r: 0.99215686, g: 0.85882354, b: 0.69803923, a: 1}
   Text: 
   LeftText: 
   RightText: 
   WriteCondition: 
-  ReadCondition: 
-  LeftNode: {fileID: 0}
-  RightNode: {fileID: 0}
+  ReadCondition: isDrunk
+  LeftNode: {fileID: 11400000, guid: 96bf3867ac7eddc4186d6a5bedb8aef0, type: 2}
+  RightNode: {fileID: 11400000, guid: 5a3813eae4285094fa9f5b057df1393f, type: 2}

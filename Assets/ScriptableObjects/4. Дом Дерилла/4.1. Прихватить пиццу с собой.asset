@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9715e969b3d02e946abfd1f369db21a9, type: 3}
-  m_Name: 4.1
+  m_Name: "4.1. \u041F\u0440\u0438\u0445\u0432\u0430\u0442\u0438\u0442\u044C \u043F\u0438\u0446\u0446\u0443
+    \u0441 \u0441\u043E\u0431\u043E\u0439"
   m_EditorClassIdentifier: 
   NegativeStats:
     Health: 0
-    Karma: -10
-    Time: 10
+    Karma: 10
+    Time: 40
   PositiveStats:
     Health: 0
-    Karma: 5
-    Time: 40
+    Karma: -15
+    Time: 5
   RandomEvents: []
   Background: {fileID: 21300000, guid: aac4ca88abfec5c4e9fe903e5b83ba21, type: 3}
   BackgroundColor: {r: 0.07450981, g: 0.0627451, b: 0.06666667, a: 1}

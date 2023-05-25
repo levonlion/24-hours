@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9715e969b3d02e946abfd1f369db21a9, type: 3}
-  m_Name: 4.3
+  m_Name: "4.3.\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0444\u0438\u043B\u044C\u043C"
   m_EditorClassIdentifier: 
   NegativeStats:
     Health: 0
-    Karma: 0
-    Time: 5
+    Karma: 5
+    Time: 90
   PositiveStats:
     Health: 0
     Karma: 15
-    Time: 90
+    Time: 15
   RandomEvents: []
   Background: {fileID: 21300000, guid: 1d4bf83ed5554b843bcaf84d4c1682e4, type: 3}
   BackgroundColor: {r: 0.007843138, g: 0, b: 0, a: 1}
@@ -31,5 +31,5 @@ MonoBehaviour:
   RightText: "\u041F\u043E\u0438\u0433\u0440\u0430\u0442\u044C \u0432 \u043D\u0430\u0441\u0442\u043E\u043B\u043A\u0443"
   WriteCondition: 
   ReadCondition: 
-  LeftNode: {fileID: 11400000, guid: ed3970430c0cff34ca85a9714bb1af17, type: 2}
-  RightNode: {fileID: 11400000, guid: ed3970430c0cff34ca85a9714bb1af17, type: 2}
+  LeftNode: {fileID: 11400000, guid: bfaf8005fdb5d50409b781d546cbb5ab, type: 2}
+  RightNode: {fileID: 11400000, guid: bfaf8005fdb5d50409b781d546cbb5ab, type: 2}
